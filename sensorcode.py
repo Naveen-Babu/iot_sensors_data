@@ -12,7 +12,7 @@ d = 0
 
 @app.route("/getdata/humidity/<h>/temperature/<temp>/distance/<d>/sensorValue/<sv>", methods=['GET']) #input route
 def chart(h, temp, d, sv):
-    print ("Inside here")
+    print ("Inside here inpu t route")
     # t.sleep(1)
     #hb_th = hb.split('$')[1]
     #tm_th = temp.split('$')[1]
